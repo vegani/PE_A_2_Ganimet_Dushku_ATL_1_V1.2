@@ -77,11 +77,9 @@ public class Cars_Main_Class
 		    System.out.println("Wähle 3 um von stärksten zum schwächsten Auto zu zeigen");
 		    System.out.println("Wähle 4 um Autos welche weniger als 500Nm haben zu zeigen.");
 		    System.out.println("Gebe die Marke ein um deine Suche zu verkleinern");
+		    	    
 		    
-		    
-		    String userSelection = userAnswer.nextLine();  
-		    
-		    UserSelectionGlobal = userSelection;
+		    UserSelectionGlobal = userAnswer.nextLine();  
 		    
 		    this.getUserSelection();
 		   
